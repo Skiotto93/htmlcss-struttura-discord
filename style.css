@@ -34,6 +34,23 @@
     border-width: 2px;
 }
 
+.debug .row2 {
+    height: 400px;
+}
+
+.debug .col-big {
+    background-color: #1e90ff;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.debug .col-small {
+    background-color: #ffc0cb;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+
 /*-----------
     HEADER
 -----------*/
@@ -58,6 +75,18 @@ header {
     margin: auto;
     
 }
+
+.row2 {
+    display: flex;
+}
+
+.col-big {
+    width: 60%;
+}
+
+.col-small {
+    width: 40%;
+}
 /*-----------
     FOOTER
 -----------*/
@@ -69,4 +98,8 @@ header {
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+section:nth-child(odd) {
+    background-color: #d3d3d3;
 }
