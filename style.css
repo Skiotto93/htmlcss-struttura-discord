@@ -56,6 +56,27 @@
     border-style: dashed;
     border-width: 2px;
 }
+
+.debug .row3 {
+    height: 530px;
+}
+
+.debug .bigcol {
+    background-color: #f08080;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.debug .smallcol {
+    background-color: #20b2aa;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: white;
+}
+
+.debug footer {
+    background-color: #23272a;
+}
 /*-----------
     HEADER
 -----------*/
@@ -99,7 +120,18 @@ header {
 /*-----------
     FOOTER
 -----------*/
+.row3 {
+    display: flex;
+    padding: 10px 0;
+}
 
+.bigcol{
+    width: 40%;
+}
+
+.smallcol{
+    width: 15%;
+}
 /*-----------
     COMMON
 -----------*/
