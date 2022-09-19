@@ -50,12 +50,17 @@
     border-width: 2px;
 }
 
-
+.debug .secondsection {
+    background-color: #228b22;
+    height: 900px;
+    border-style: dashed;
+    border-width: 2px;
+}
 /*-----------
     HEADER
 -----------*/
 section {
-    padding: 16px 0;
+    padding: 50px 0;
 }
 
 header {
@@ -86,6 +91,10 @@ header {
 
 .col-small {
     width: 40%;
+}
+
+.secondsection {
+    margin: auto;
 }
 /*-----------
     FOOTER
