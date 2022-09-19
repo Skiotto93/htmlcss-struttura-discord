@@ -90,7 +90,18 @@ header {
 
 .header-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-nav {
+    border-left: dashed;
+    height: 100%;
+    border-right: dashed;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*-----------
